@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 golang:1.22.5-alpine3.20
+FROM golang:alpine
 
 WORKDIR /email-verifier
 
